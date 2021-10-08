@@ -27,3 +27,5 @@ Apuntes de clase
 
 ## Sistemas informáticos
 
+- Resumen rapido T0
+- Resumen T1
