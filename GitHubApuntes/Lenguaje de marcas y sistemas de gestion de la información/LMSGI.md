@@ -253,7 +253,7 @@ Etiquetas de color y tamaño:
 <body bgcolor="color"></font>
 ```
 
-### Tarea FormateotextoColores30sep2021GonzaloAragones.html
+### Tarea FormateotextoColores30sep2021N+A.html
 
 ```html
 <!DOCTYPE html>
