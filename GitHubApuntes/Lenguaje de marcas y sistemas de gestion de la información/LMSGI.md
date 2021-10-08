@@ -117,19 +117,19 @@ Consideraciones a tener en cuenta:
 
 - Los nombres de las etiquetas no son sensibles a mayusculas o minúsculas (por convenio se usan minúsculas).
 - Los nombres de las etiquetas no deben tener espacios en blanco.
-- Las etiquetas pueden anidarse ( <b>esto va en <i>negrita y en </i> cursiva</b>).
+- Las etiquetas pueden anidarse ( `<b>esto va en <i>negrita y en </i> cursiva</b>`).
 
 #### 2.1.3 ESTRUCTURA BASICA DE UN DOCUMENTO HTML.
 
-Los documentos HTML estan delimitados por las etiquetas <html> y </html>.
+Los documentos HTML estan delimitados por las etiquetas `<html></html>`
 Dentro del documento se distinguen 2 partes:
 
-- La cabecera(head) -> Delimitada por sus etiquetas <head> </head>.
+- La cabecera(head) -> Delimitada por sus etiquetas `<head></head>`
 
 Contiene la identificacion e informacion del documento, como por ejemplo el titulo del documento.
-Dentro se pone el titulo de la página(<tittle></tittle>), que aparecera n la barrra de titulo de la ventana/pestaña del navegador.
+Dentro se pone el titulo de la página(`<tittle></tittle>`), que aparecera n la barrra de titulo de la ventana/pestaña del navegador.
 
-- El cuerpo(body) -> Delimitado por sus etiquetas <body></body>.
+- El cuerpo(body) -> Delimitado por sus etiquetas `<body></body>`.
 
 Contiene el contenido de lo que se visualiza en pantalla (tablas, texto, imágenes...).
 
@@ -172,7 +172,7 @@ Tipo de documento:
 
 #### 2.1.4 FORMATEO DE TEXTO
 
-Las siguientes etiquetas son necesarrias parra obtener texto mas adornado con cabecceras, parrafo, lineaas, negritas, subrayado, colores etcetera
+Las siguientes etiquetas son necesarrias parra obtener texto mas adornado con cabecceras, parrafo, lineaas, negritas, subrayado, colores etcetera.
 
 Etiqueta de cabeceras:
 
@@ -206,7 +206,7 @@ Etiquetas de párrafo:
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Gonzalo Aragonés López"/>
+    <meta name="author" content="Nombre"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formateo de Texto</title>
@@ -261,7 +261,7 @@ Etiquetas de color y tamaño:
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Gonzalo Aragonés López" />
+    <meta name="author" content="Noombre" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formateo de Texto</title>
@@ -368,7 +368,7 @@ HTML dispone de 3 tipos de listas:
     <body>
 
         <center>
-            <h1>Horario semanal de Gonzalo Aragonés</h1>
+            <h1>Horario semanal de DAW</h1>
         </center>
 
 
@@ -438,7 +438,7 @@ el head y el body no combiene que esten a la misma altura
 
 - no numeradas: Son iguales que las anteriores pero los elementos de la lista no llevan asociadas ninguna descripcion, incorporan una marca(viñeta) al inicio de cada elemento de la lista.
 
-Las etiqueta indican el inicio u el final de la lista son <ul></ul> y cada elemenot de la lista se indica <li></li>. con el atributo type puedo elegir el tipo de viñeta que quiero usar square sico circle
+Las etiqueta indican el inicio u el final de la lista son `<ul></ul>` y cada elemenot de la lista se indica <li></li>. con el atributo type puedo elegir el tipo de viñeta que quiero usar square sico circle
 
 #### Ejercicio lista no numerada
 
@@ -450,7 +450,7 @@ Las etiqueta indican el inicio u el final de la lista son <ul></ul> y cada eleme
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lista no numerada Gonzalo Aragonés López</title>
+        <title>Lista no numerada</title>
     </head>
 
     <body>
@@ -489,18 +489,18 @@ Las etiqueta indican el inicio u el final de la lista son <ul></ul> y cada eleme
 
 ### Enlaces,links o hipervínculos
 
-Los enlaces permiten ir a otra pagina web o zona dentro de la misma pagina web para incluir enlaces se usa la etiqueta <a>
+Los enlaces permiten ir a otra pagina web o zona dentro de la misma pagina web para incluir enlaces se usa la etiqueta `<a>`
 
-<a href="https://direccion">Texto del enlace</a> -> direccion es la URL de la pagina que vamos a enlazar y puede ser una direccon de internet, una pagina web (activida2.html), a un fichero o bien zona del mismo documento.
+`<a href="https://direccion">Texto del enlace</a>` -> direccion es la URL de la pagina que vamos a enlazar y puede ser una direccon de internet, una pagina web (activida2.html), a un fichero o bien zona del mismo documento.
 
-<a href="#parrafo">texto_enlace</a> -> El parrafo ha de aparecer en algún lugar del mismo documento acompañado. A estos links internos también se les llama anclas. En la zona de destino del enlace interno, pondremos la segunda parte del ancla:
-<a name="parrafo"></a>
+`<a href="#parrafo">texto_enlace</a>` -> El parrafo ha de aparecer en algún lugar del mismo documento acompañado. A estos links internos también se les llama anclas. En la zona de destino del enlace interno, pondremos la segunda parte del ancla:
+`<a name="parrafo"></a>`
 
-<a href="foto.fomato">Foto</a> -> para enlazar ficheros dentro de la carpeta en la que esta la web.
+`<a href="foto.fomato">Foto</a>` -> para enlazar ficheros dentro de la carpeta en la que esta la web.
 
-<a href=mailto:micorreo@servidor.com>Contactar</a> -> Enviar e-mail a la dirección nombrada.
+`<a href=mailto:micorreo@servidor.com>Contactar</a>` -> Enviar e-mail a la dirección nombrada.
 
-#### Enlaces4oct2021GonzaloAragones.html
+#### Enlaces4oct2021N+A.html
 
 ```html
 <!DOCTYPE html>
@@ -510,7 +510,7 @@ Los enlaces permiten ir a otra pagina web o zona dentro de la misma pagina web p
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enlaces Gonzalo Aragones Lopez</title>
+  <title>Enlaces</title>
 </head>
 
 <body>
@@ -528,7 +528,7 @@ Los enlaces permiten ir a otra pagina web o zona dentro de la misma pagina web p
     </li>
     <li>
       Enlace a nuestro documetno:
-      <a href="ListaNumerada30sep2021GonazaloAragones.html">Horario</a>
+      <a href="ListaNumerada30sep2021N+A.html">Horario</a>
     </li>
     <li>
       Enlace interno para ir a la ultima fila:
@@ -568,13 +568,13 @@ Los enlaces permiten ir a otra pagina web o zona dentro de la misma pagina web p
 </html>
 ```
 
-Para insertar una imagen web se utiliza una etiqueta <img src="imagen"/> donde "imagen" es el nombre del fichero que contiene la imagen, por ejemplo "<img src="dibujo.jpg"/> mostrara en la pagina la imagen.
+Para insertar una imagen web se utiliza una etiqueta `<img src="imagen"/>` donde "imagen" es el nombre del fichero que contiene la imagen, por ejemplo "`<img src="dibujo.jpg"/>` mostrara en la pagina la imagen.
 
 Los formatos gráficos mas usados son .gif .png y .jpg porque ocupan poco espacio y se cargan rapidamente.
 También se puede utilizar una imagen dentro de un enlace por ejemplo:
-<a href="listanonumerada.html"><img src="dibujo.jpg"></a>
+`<a href="listanonumerada.html"><img src="dibujo.jpg"></a>`
 
-La etiqueta "<img>" admite los siguientes atributos:
+La etiqueta "`<img>`" admite los siguientes atributos:
 
     - width = "ancho"
     - height = "alto"
