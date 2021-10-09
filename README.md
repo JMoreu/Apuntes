@@ -11,8 +11,6 @@ Apuntes de clase
 
 - Resumen tema 2. (Resumen de los conceptos del tema)
 
-## Entornos de desarrollo
-
 ## Lenguaje de marcas y sistemas de gestión de información
 
 - LMSGI. (apuntes de clase y ejercicios)
