@@ -13,10 +13,6 @@ Apuntes de clase
 
 ## Entornos de desarrollo
 
-### Aula virtual(extra)
-
-- POO.
-
 ## Lenguaje de marcas y sistemas de gestión de información
 
 - LMSGI. (apuntes de clase y ejercicios)
