@@ -118,6 +118,7 @@
 - HARDWARE
 - SOFTWARE
 - HILO
+	- el **flujo de control de datos de un programa**. Es un medio que **permite administrar las tareas de un procesador y de sus diferentes núcleos de una forma más eficiente.** Gracias a los hilos, las unidades mínimas de asignación, que son las tareas o procesos de un programa, pueden dividirse en trozos para así optimizar los tiempos de espera de cada instrucción en la cola del proceso. **Estos trozos se llaman subprocesos o threads(hilos).**
 - INTERRUPCIÓN DE TECLADO / IRQ (wikilbros)
 - Normas de seguridad y prevención de riesgos laborales (punto 1.6 del PDF del libro)
 - Normas de sguridad y prevencion de riesgos a la hora del montaje de un PC
@@ -186,7 +187,7 @@
 
 7. ¿Qué son los registros que proposio tienen y donde se suelen encontrar?
 
-- 
+- Un registro es una memoria de poca capacidad pero de gran velocidad, integrada en el microprocesador, que permite guardar y acceder a  valores muy usados en operaciones matematicas.
 
 8. ¿Qué funcion tiene la ALU?
 
@@ -194,7 +195,7 @@
 
 9. ¿Con que tipo de operaciones trabajan los circuitos de los computadores y por que?
 
-- 
+- Con puertas logicas (AND OR XOR NOT NAND NOR)
 
 10. ¿Define sistema informático?
 
@@ -210,11 +211,11 @@
 
 13. ¿Qué componenete de la placa chequea todo el hardware del ordenador y permite la comunicacion basica de entrada y salida nada mas arrancar el ordenador?
 
-- 
+- La memoria ROM donde se almacena la BIOS es la encargada de hacer de puente entre el hardware y el software en el arranque del PC
 
 14. ¿Qué es el chipset de la placa base?
 
-- 
+- Es el centro de comunicaciones  de la placa base de un ordenador, se encarga de controlar y organizar los datos entre el procesador y el resto de componentes del ordenador.
 
 ## mas cosas a tener en cuenta
 
