@@ -205,5 +205,32 @@ para ser capaces de plasmar mas información en un esquema aparecera alguna simb
 
 	- Restricciones semánticas: Facilidades aportadas por el modelo para recoger en el esquema de relación semántica del sistema que estamos modelando. Las define el diseñador.
 
-		- Restricción de unicidad o de valor único: 
+		- Restricción de unicidad o de valor único: Establece la unicidad de uno o varios atributos, cuyos valores no se podran repetir en las distintas tuplas (**UNIQUE**).
+		- Restricción de obligatoriedad (NOT NULL): Establece que un atributo no puede tomar un valor nulo.
+		- Restricción de verificación (CHECK): Condición logica que se debe cumplir.
+		- Restricción de clave:
+			- Clave candidata: conjunto de atributos que identifican unicamente una tupla.
+				- Clave primaria: clave candidata elegida por el diseñador.
+				- Claves alternativas: claves candidatas no elegidas.
+			- Clave ajena o foránea: Referencias a atributos univocos de otras tablas.
 
+		- Restricción de integridad referencial: Cuando un atributo referencia o es hijo de otro a la hora de eliminar el padre se puede elegir que hacer con el atributo hijo.
+			- NO ACTION
+			- CASCADE
+			- SET NULL
+			- SET DEFAULT
+		- Restricción de asertividad: Establecen una condicion libre para la validacion de los atributos de la tupla que se esta insertandose o modificandose.
+		- Disparadores(Trigger): Procedimientos que se "disparan" (saltan) a la hora de darse una determinada condicion.
+
+## Transformación del esquema conceptual al esquema lógico
+
+Existen 3 reglas básicas pra convertir un esquema E/R en un esquema relacional :
+
+1. Todo tipo de entidad se convierte en una relación.
+2. Todo tipo de interrelación N:M se transforma en una relación.
+3. Para todo tipo de interrelación 1:N se realiza lo que se denomina propagación de la clave(regla general), o bien se crea una nueva relación.
+
+- Reglas concernientes al modelo básico.
+	- Transformación de dominios: podemos representar una restricción de clave ajena desde un punto de mista de dominios por extensión, ya que los valores que puede tomar un atributo vienen referenciados por los valores de la clave primaria que referencian.
+	- Transformación de entidades: El modelo lógico estandar posee el bojeto de relación o tabla mediante el cual representamos entidades.
+	- 

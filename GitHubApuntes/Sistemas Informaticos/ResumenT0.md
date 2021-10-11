@@ -5,7 +5,7 @@
 ### Índice
 
 - **Concepto de la informática**
-	- Es la ciencia que se refiere al tratamiento de la información de una manera utomatica
+	- Es la ciencia que se refiere al tratamiento de la información de una manera automatica
 	- tratamiento =
 		- Input
 		- Processing
@@ -17,7 +17,7 @@
 - Los ordenadores. Las generaciones de ordenadores
 	- **1ª generación 40 - 56**
 		- Electromecanicos basados en relés
-		- **MarkI**
+		- **Mark I**
 			- 5 T
 			- 750k piezas
 			- 800km cable
